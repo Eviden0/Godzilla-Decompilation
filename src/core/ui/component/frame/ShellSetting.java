@@ -289,7 +289,7 @@ extends JFrame {
         this.connTimeOutTextField.setText("3000");
         this.readTimeOutTextField.setText("60000");
         this.remarkTextField.setText(EasyI18N.getI18nString("\u5907\u6ce8"));
-        this.headersTextArea.setText("User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:84.0) Gecko/20100101 Firefox/84.0\nAccept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8\nAccept-Language: zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2\n");
+        this.headersTextArea.setText("User-Agent: Mozilla/5.0 Firefox/84.0\nAccept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8\nAccept-Language: en-US;q=0.3,en;q=0.2\n");
         this.leftTextArea.setText("");
         this.rightTextArea.setText("");
         if (this.currentGroup == null) {
